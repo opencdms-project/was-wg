@@ -9,14 +9,17 @@ are one realisation of the WMO [CDMS Specifications](https://library.wmo.int/ind
 
 The creation of the OpenCDMS API Specifications is a broad top-down activity, possibly comprising the following components:
 - Data API (extending [OCG API - Features](https://www.opengeospatial.org/standards/ogcapi-features))
-- Process API (using [OGC API -Processes](https://github.com/opengeospatial/wps-rest-binding))
-- Coverages API (possibly separate from Data API, see below)
+- Process API (using [OGC API - Processes](https://github.com/opengeospatial/wps-rest-binding))
+- Coverages API (using/extending [OGC API - Coverages](https://github.com/opengeospatial/ogc_api_coverages))
 
-It is anticipated that the OpenCDMS Data API will define an extention to the `OGC API - Features` standard, whilst using `OGC API - Processes` directly.
+It is anticipated that the OpenCDMS Data API will define an extention to the `OGC API - Features` standard.
+In addition to supporting operations on features, the Data API will also provide controlled access to other resources.
+
+`OGC API - Processes` is likely to be used directly.
 
 Gridded data (e.g. satellite imagery) will use/extend the `OGC API - Coverages` standard. The work of the OGC MetOcean WG (e.g. [
-MetOcean Hack(https://www.opengeospatial.org/metoceanhack)) may also be relevant
-although this may apply more to multi-level model data.
+MetOcean Hack](https://www.opengeospatial.org/metoceanhack)) will also be reviewed
+(although this may apply more to multi-level model data).
 
 The prototyping of an initial Reference Implementation is currently being explored as a bottom-up collaborative activity in
 [OpenCDMS Experimental](https://github.com/opencdms-dev):
@@ -25,6 +28,6 @@ The prototyping of an initial Reference Implementation is currently being explor
   - Hydrological modules (from [MCH](www.wmo.int/pages/prog/hwrp/mch/))
   - Climatological modules (from [R-Instat](http://r-instat.org))
 
-Other CDMS developers could also conform to the OpenCDMS API specification and, in doing so,
+Software other than the OpenCDMS Reference Implementation may also conform to the OpenCDMS API specification and, in doing so,
 they could be certified as being conformant. Being conformant to the OpenCDMS API specification
-guarantees conformance to the CDMS specifications).
+guarantees conformance to the WMO CDMS specifications.
