@@ -25,7 +25,7 @@ The prototyping of an initial Reference Implementation is currently being explor
 [OpenCDMS Experimental](https://github.com/opencdms-dev):
 - [Data API](https://github.com/opencdms-dev/data-api)
 - Process API
-  - Hydrological modules (from [MCH](www.wmo.int/pages/prog/hwrp/mch/))
+  - Hydrological modules (from [MCH](http://www.wmo.int/pages/prog/hwrp/mch/))
   - Climatological modules (from [R-Instat](http://r-instat.org))
 
 Software other than the OpenCDMS Reference Implementation may also conform to the OpenCDMS API specification and, in doing so,
