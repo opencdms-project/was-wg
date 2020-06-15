@@ -16,7 +16,7 @@ The prototyping of an initial Reference Implementation is currently being explor
 - [Data API](https://github.com/opencdms/data-api/) - It is anticipated that the OpenCDMS Data API may define an extention to the [OGC API - Features](https://www.opengeospatial.org/standards/ogcapi-features) standard. In addition to supporting operations on features, the Data API will also provide controlled access to other resources.
 - [Process API](https://github.com/opencdms/process-api/) (potentially utilising [OGC API - Processes](https://github.com/opengeospatial/wps-rest-binding)). Process will include:
   - Hydrological modules (from [MCH](http://www.wmo.int/pages/prog/hwrp/mch/))
-  - Climatological modules (from [R-Instat](http://r-instat.org))
+  - Climatological modules (from [R-Instat](http://r-instat.org) and [Climatol](https://CRAN.R-project.org/package=climatol))
 - Coverages API (using/extending [OGC API - Coverages](https://github.com/opengeospatial/ogc_api_coverages)). Gridded data (e.g. satellite imagery) may use/extend the `OGC API - Coverages` standard. The work of the OGC MetOcean WG (e.g. [
 MetOcean Hack](https://www.opengeospatial.org/metoceanhack)) will also be reviewed, although this may apply more to multi-level model data.
 
