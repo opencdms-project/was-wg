@@ -16,6 +16,8 @@ The Web API Standard will consider
 - [OGC API - Processes](https://github.com/opengeospatial/wps-rest-binding)
 - [OGC API - Coverages](https://github.com/opengeospatial/ogc_api_coverages) (see also [
 MetOcean Hack](https://www.opengeospatial.org/metoceanhack))
+- [MCH API](https://github.com/opencdms/mch-api)
+- Belize Surface Web API
  
 Processes will include:
 - Hydrological modules (from [MCH](http://www.wmo.int/pages/prog/hwrp/mch/))
