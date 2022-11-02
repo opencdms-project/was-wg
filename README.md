@@ -1,3 +1,5 @@
+### \*\*This repository will be merged with the project-standards-team repository\*\*
+
 **This repository is the main collaborative space for the OpenCDMS Web API Standard Working Group (WAS-WG)**
 
 A central component of the OpenCDMS project is collaborating on a CDMS Web API Standard. Specifically:
